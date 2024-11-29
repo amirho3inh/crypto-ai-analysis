@@ -8,7 +8,7 @@
 
 [python-version]: https://img.shields.io/badge/python-3.12%2B-brightgreen.svg
 [download-size]: https://img.shields.io/badge/download-16kb-brightgreen.svg
-[version-size]: https://img.shields.io/badge/version-1.1-blue.svg
+[version-size]: https://img.shields.io/badge/version-1.2-blue.svg
 </div>
 
 
