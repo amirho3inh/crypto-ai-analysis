@@ -8,7 +8,7 @@
 
 [python-version]: https://img.shields.io/badge/python-3.12%2B-brightgreen.svg
 [download-size]: https://img.shields.io/badge/download-16kb-brightgreen.svg
-[version-size]: https://img.shields.io/badge/version-1.2-blue.svg
+[version-size]: https://img.shields.io/badge/version-1.3-blue.svg
 </div>
 
 
@@ -40,6 +40,28 @@ in dir open Terminal and run command:
 ```cmd
 streamlit run checker.py
 ```
+
+## Changing AIs
+Open AI Code `GPT`:
+```code
+from openai_client import OpenAIClient
+
+prompt = "Hello"
+
+openai_client = OpenAIClient()
+response = openai_client.get_response(prompt)
+```
+
+Huggingface AI Code `Qwen2.5-72B`: :star_struck:`FREE`:free:
+```code
+from Huggingface import HuggingfaceAIClient
+
+promptTranslate = "Hello"
+
+huggingface_client = HuggingfaceAIClient()
+translateResponse = huggingface_client.get_response(promptTranslate)
+```
+
 
 ## Resources
 

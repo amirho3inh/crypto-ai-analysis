@@ -11,7 +11,7 @@ class OpenAIClient:
             raise ValueError("OPENAI_API_KEY is not set in environment variables.")
         self.client = OpenAI(api_key=api_key,)
 
-    def get_response(self, prompt, model="chatgpt-4o-latest", stream=False):
+    def get_response(self, prompt, model=os.getenv("OPENAI_MODEL"), stream=False):
         try:
             response = self.client.chat.completions.create(
                 messages=[{"role": "user", "content": prompt}],
